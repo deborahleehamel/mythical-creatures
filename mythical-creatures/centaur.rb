@@ -73,4 +73,8 @@ class Centaur
     end
   end
 
+  def sick?
+    @drinks > 0
+  end
+
 end
