@@ -10,13 +10,11 @@ class DragonTest < Minitest::Test
   end
 
   def test_it_has_a_rider
-    skip
     dragon = Dragon.new("Ramoth", :gold, "Lessa")
     assert_equal "Lessa", dragon.rider
   end
 
   def test_it_has_a_color
-    skip
     dragon = Dragon.new("Ramoth", :gold, "Lessa")
     assert_equal :gold, dragon.color
   end
@@ -57,4 +55,3 @@ class DragonTest < Minitest::Test
     refute dragon.hungry?
   end
 end
-
