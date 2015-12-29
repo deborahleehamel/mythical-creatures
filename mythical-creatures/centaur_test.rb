@@ -133,7 +133,7 @@ class CentaurTest < Minitest::Test
   end
 
   def test_gets_sick_if_drinks_potion_while_rested
-    centaur = Centaur.new("George", "Palomino")
+    centaur = Centaur.new("Henry", "Palomino")
     centaur.drinks_potion
     assert_equal true, centaur.rested?
     assert_equal true, centaur.sick?
