@@ -1,5 +1,5 @@
 class Unicorn
-  attr_accessor :name, :color
+attr_accessor :name, :color
 
   def initialize(name, color="white")
     @name = name
@@ -14,7 +14,7 @@ class Unicorn
     end
   end
 
-  def say(input)
-    "**;* #{input} **;*"
+  def say("Wonderful!", "I don't like you very much.")
   end
+
 end
