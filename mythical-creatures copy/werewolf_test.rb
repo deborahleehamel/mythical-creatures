@@ -10,11 +10,13 @@ class WerewolfTest < Minitest::Test
   end
 
   def test_it_has_a_location
+    skip
     werewolf = Werewolf.new("David","London")
     assert_equal "London", werewolf.location
   end
 
   def test_it_is_by_default_in_human_form
+    skip
     werewolf = Werewolf.new("David","London")
     assert werewolf.human?
   end

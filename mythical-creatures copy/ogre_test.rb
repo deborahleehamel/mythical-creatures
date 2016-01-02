@@ -32,18 +32,17 @@ class OgreTest < Minitest::Test
   end
 
   def test_humans_only_notices_ogre_every_third_time
-    skip
     ogre = Ogre.new('Brak')
     human = Human.new
 
     ogre.encounter
     ogre.encounter
     ogre.encounter
+
     assert true, human.notices_ogre?
   end
 
   def test_human_notices_ogre_the_sisxth_time
-    skip
     ogre = Ogre.new('Brak')
     human = Human.new
 
@@ -70,7 +69,6 @@ class OgreTest < Minitest::Test
   end
 
   def test_it_hits_the_human_every_second_time_it_swings
-
     ogre = Ogre.new('Brak')
     human = Human.new
 

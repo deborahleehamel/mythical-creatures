@@ -1,7 +1,7 @@
 class Wizard
   attr_reader :name
 
-  def initialize(name, bearded: true  )
+  def initialize(name, bearded: true)
     @name = name
     @bearded = bearded
     @cast = 0
